@@ -3,7 +3,7 @@ import java.util.Locale;
 
 public class PrintFormatacaoNumeros {
     public static void main(String[] args) {
-        Locale localeBR = new Locale("pt", "BR");
+        Locale localeBR = new Locale("en", "US");
         NumberFormat dinheiro = NumberFormat.getCurrencyInstance(localeBR);
         float taxa = 0.2456f;
         float valor = 7654.321f;
