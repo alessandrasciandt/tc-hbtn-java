@@ -13,7 +13,7 @@ public class InteiroPositivo {
         if(Integer.parseInt(valor) <= 0 || valor == null){
             throw new IllegalArgumentException("Valor nao eh um valor inteiro positivo");
         }
-        this.valor = new Integer(valor);
+        this.valor = Integer.parseInt(valor);
     }
 
     //getter and setters
