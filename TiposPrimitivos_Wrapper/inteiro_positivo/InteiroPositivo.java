@@ -1,5 +1,5 @@
 public class InteiroPositivo {
-    public int valor;
+    private int valor;
     //public String valorString;
 
     //constructor
