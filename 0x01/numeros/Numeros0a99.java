@@ -1,12 +1,9 @@
 public class Numeros0a99 {
 
-    int i;
+    static final int numerMax = 99;
     public static void main(String args[]) {
-        for (int i = 0; i <= 99; i++) {
-            if(i == 99){
-                System.out.println(i+"");
-            }
-            System.out.printf(i + ", ");
+        for (int i = 0; i <= numerMax; i++) {
+            System.out.printf("%d%c ",i, i==numerMax ? 00: 44);
         }
     }
 }
