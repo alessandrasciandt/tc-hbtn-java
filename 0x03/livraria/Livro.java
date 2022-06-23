@@ -20,7 +20,7 @@ public class Livro {
     public void setTitulo(String titulo) throws LivroInvalidoException {
         //this.titulo = titulo;
         if (titulo.length() < 3) {
-            throw new LivroInvalidoException("Titulo de Livro invalido");
+            throw new LivroInvalidoException("Titulo de livro invalido");
         } else {
             this.titulo = titulo;
         }
