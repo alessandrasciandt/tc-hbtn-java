@@ -18,6 +18,6 @@ public class Telefone {
 
     @Override
     public String toString() {
-        return String.format("(%s), %s", codigoArea, numero);
+        return String.format("(%s) %s", codigoArea, numero);
     }
 }
